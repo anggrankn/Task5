@@ -42,13 +42,13 @@ public class Main {
                     System.out.println(" ");
                 } else {
                     System.out.print("|");
-                    for (int j = 0; j < i && j < (((width + 0.0)/ 2) - 1); j++) {
+                    for (int j = 0; j < (i-1) && j < (((width + 0.0)/ 2) - 1); j++) {
                         System.out.print(" ");
                     }
-                    for (int j = 0; j < width - 2 * i - 2; j++) {
+                    for (int j = 0; j < width - 2 * (i-1) - 2; j++) {
                         System.out.print("*");
                     }
-                    for (int j = 0; j < i && j < (((width + 0.0)/ 2) - 1); j++) {
+                    for (int j = 0; j < (i-1) && j < (((width)/ 2) - 1); j++) {
                         System.out.print(" ");
                     }
                     System.out.println("|");
