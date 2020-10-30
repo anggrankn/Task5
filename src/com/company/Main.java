@@ -25,7 +25,7 @@ public class Main {
     }
 
     public static void checkExistenceFigure(int h, int w) {
-        if ((h >= 3) && (w >= 3)) {
+        if (h >= 3 && w >= 3) {
             System.out.println("Введенные значения корректны.");
         } else {
             System.out.println("Введенные значения не корректны.");
